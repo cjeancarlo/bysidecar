@@ -1,0 +1,64 @@
+.custom-banner-img {
+    background-image: url("../img/bg.png");
+    /* height: 500px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.custom-h6 {
+    font-size: 0.75rem;
+}
+
+.custom-center-text {
+    text-align: center;
+}
+
+
+.custom-start-text {
+    text-align: start;
+}
+
+
+.custom-btn-margin-top {
+    margin-top: 20px;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .custom-img-sm {
+        max-width: 100%;
+    }
+
+    .custom-margin-top-sm {
+        margin-top: 50px;
+    }
+
+    .custom-container {
+        margin: 5px;
+    }
+
+    .custom-logo-sm {
+        width: 150px
+    }
+
+    .custom-btn-margin-top-sm {
+        margin-top: 20px;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
